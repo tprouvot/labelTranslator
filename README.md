@@ -6,10 +6,10 @@ How to retrieve a custom label's translation for a specific language in apex ?
 
 ``` java
 LabelTranslator t = new LabelTranslator();
-String en_text = t.translate('CustomLabelName','en');
-System.debug(en_text);
-String fr_text = t.translate('CustomLabelName','fr');
-System.debug(fr_text);
+String enLabel = t.translate('CustomLabelName','en');
+System.debug(enLabel);
+String frLabel = t.translate('CustomLabelName','fr');
+System.debug(frLabel);
 ```
 
 ## Deploy to Salesforce
